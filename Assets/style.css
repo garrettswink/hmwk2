@@ -6,7 +6,9 @@
     margin: 0;
     padding: 0; 
     
+    
 }
+
 
 /* Header*/
 header {
@@ -20,6 +22,7 @@ header {
     background-color: #24252A;
 }
 
+
 /* Nav */
 li, a, button {
     font-size: 16px;
@@ -30,6 +33,16 @@ h1 {
     font-size: 16px;
     margin: left;
     color:rgb(253, 166, 166)
+}
+
+h2 {
+    font-size: 50px;
+    padding-left: 50px;
+    padding-top: 40px;
+    color: indigo;
+    font-style: italic;
+    text-decoration: underline;
+
 }
 
 .link {
@@ -59,8 +72,50 @@ button:hover {
     background-color: red;
 }
 
+/* Body */
 body {
     background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+    display: flexbox;
+    align-content: flex-start;
 
 }
 
+/* About */
+.bio-container {
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+.bio-photo {
+    width: 50%;
+    height: 500px;
+    
+}
+.bio-copy {
+    width: 50%;
+    height: 500px;
+    
+}
+.copy-card{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-width: 1px;
+    border-radius: 25px;
+    padding: 10px;
+    flex: 0 0 300px;
+    margin-top: 100px;
+    margin-left: 25px;
+    margin-right: 25px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+   
+
+    
+
+    
+
+  
+
+}
