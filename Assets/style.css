@@ -11,7 +11,6 @@
 header {
     display: flex;
     justify-content: space-between;
-    align-items: right;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 25px;
@@ -90,7 +89,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    height: 500px;
+    height: 400px;
 }
 
 .card {
@@ -117,11 +116,12 @@ h3 {
     margin-top: 29px;
 }
 
+
 .caseStudycontainer {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    height: 500px;
+    height: 400px;
 }
 
 .caseStudycard {
@@ -165,7 +165,7 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    height: 500px;
+    height: 400px;
 }
 
 .contactContainer p {
@@ -178,7 +178,6 @@ h3 {
     align-items: center;
     margin: auto;
     margin-top: -15px;
-
 }
 
 .box {
@@ -205,10 +204,18 @@ h3 {
     background: rgb(253, 166, 166);
     color: black;
 }
+
+footer {
+    width: 100%;
+    height: 75px;
+    background-color: #24252A;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-right: 400px;
     
+}
 
-    
-
-  
-
-
+footer li{
+   padding-left: 200px;
+}
