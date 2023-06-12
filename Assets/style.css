@@ -68,10 +68,22 @@ button:hover {
 }
 /* End Nav */
 
+
+/* Hero Image */
+.hero-container {
+  display:flex
+}
+
+.hero-card img{
+    max-width: 100%;
+    max-height: 500px;
+}
+
 /* Body */
 body {
     background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
 }
+
 
 /* About */
 .about-container {
@@ -79,7 +91,6 @@ body {
     align-items: center;
     justify-content: space-evenly;
     height: 500px;
-    
 }
 
 .card {
