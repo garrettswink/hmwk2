@@ -5,8 +5,6 @@
     box-sizing: border-box; 
     margin: 0;
     padding: 0; 
-    
-    
 }
 
 /* Header*/
@@ -66,6 +64,7 @@ button {
 
 button:hover {
     background-color: red;
+    color: black;
 }
 /* End Nav */
 
@@ -91,20 +90,20 @@ body {
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);;
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
-    height: 400px;
-    width: 500px;
+    height: 300px;
+    width: 400px;
 }
 
 h3 {
     color:rgb(63, 14, 98);
-    margin-top: 100px;
+    margin-top: 22px;
 }
 
 .card img {
     height: 250px;
     width: 250px;
-    margin-left: 100px;
-    margin-top: 50px;
+    margin-left: 60px;
+    margin-top: 29px;
 }
 
 .caseStudycontainer {
@@ -138,11 +137,63 @@ h3 {
     width: 300px;
 }
 
+.caseStudycard img {
+    height: 100px;
+    width: 170px;
+    margin-top: 30px;
+    margin-left: -5px;
+    border-radius: 50px;
+}
 
+.caseStudycard2 img {
+    height: 260px;
+    width: 260px;
+}
 
+.contactContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 500px;
+}
 
-   
+.contactContainer p {
+    margin-top: 40px;
+}
 
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: -15px;
+
+}
+
+.box {
+    padding: 12px;
+    margin: 10px;
+    width: 75%;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    font-size: 1rem;
+}
+
+#submit{
+  width: 30%;
+  padding: 7px; 
+  border-radius: 25%;
+  font-size: 1rem;
+  background-color: rgba(0, 136, 169, 1);
+  color: white;
+  cursor: pointer;
+}
+
+#submit:hover {
+    background: rgb(253, 166, 166);
+    color: black;
+}
     
 
     
